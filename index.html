@@ -15,10 +15,28 @@
     </style>
 </head>
 
-<body class="flex bg-red-100 h-screen touch-manipulation select-none">
+<body class="flex bg-black h-screen touch-manipulation select-none">
 
 <main id="app" class="m-auto w-screen flex justify-center" v-cloak>
-    <img :src="imageFile" alt="">
+    <div>
+        <img :src="'slide_' + slideIdx + '.png'" alt="" v-on:click="next" class="opacity-50">
+        <p class="text-center text-white">{{ subscript}}</p>
+    </div>
+
+    <!-- Main modal -->
+    <div tabindex="-1" aria-hidden="true" class="fixed inset-0" v-if="choiceScene">
+        <div class="m-auto relative p-4 w-full max-w-2xl h-full md:h-auto">
+            <!-- Modal content -->
+            <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                <div class="p-6 space-y-6">
+                    <div class="text-white text-center" v-for="n in get()">
+                        <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">{{n}}</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </main>
 
 <script src="https://cdn.tailwindcss.com"></script>
