@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="369a3a89-0890-4b83-9526-2373dabd9506" name="Changes" comment="シーン遷移の仕組みを作成">
+    <list default="true" id="369a3a89-0890-4b83-9526-2373dabd9506" name="Changes" comment="フレームを追加（具体的なファイル名はこれから）">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ojt2022.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ojt2022.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654566229344</updated>
-      <workItem from="1654566230665" duration="18886000" />
+      <workItem from="1654566230665" duration="23556000" />
     </task>
     <task id="LOCAL-00001" summary="シーン遷移の仕組みを作成">
       <created>1654650522223</created>
@@ -58,7 +57,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654650522223</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="フレームを追加（具体的なファイル名はこれから）">
+      <created>1654663749778</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654663749778</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +87,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="シーン遷移の仕組みを作成" />
-    <option name="LAST_COMMIT_MESSAGE" value="シーン遷移の仕組みを作成" />
+    <MESSAGE value="フレームを追加（具体的なファイル名はこれから）" />
+    <option name="LAST_COMMIT_MESSAGE" value="フレームを追加（具体的なファイル名はこれから）" />
   </component>
 </project>
