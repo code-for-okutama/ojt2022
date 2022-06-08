@@ -1,36 +1,26 @@
-var SLIDE_MAX = 1;
-var CHOICE = [
-    ["a", "b", "c"],
-    ["d", "e", "f"],
-];
-
 var app = new Vue({
     el: '#app',
     data: {
         slideIdx: 0,
-        subscript: "init",
-        list: CHOICE,
         choiceScene: false,
     },
     created: function () {
     },
     methods: {
-        next() {
-            if (this.slideIdx < SLIDE_MAX) {
-                this.slideIdx++;
-            }
+        next(idx) {
+            this.slideIdx = SLIDE[this.slideIdx].goto[idx];
         },
-        get() {
-            return this.list[0];
+        getChoices() {
+            return SLIDE[this.slideIdx].script;
+        },
+        getImage() {
+            return SLIDE[this.slideIdx].image;
+        },
+        getScript() {
+            return SLIDE[this.slideIdx].script[0];
+        },
+        isChoiceScene() {
+            return 1 < SLIDE[this.slideIdx].script.length
         }
     },
 })
-
-// --
-function waitSec(sec) {
-    return new Promise(resolve => {
-        setTimeout(() => {
-            resolve()
-        }, sec * 1000);
-    })
-}
