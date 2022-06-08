@@ -97,7 +97,7 @@ var SLIDE = [
         id: 300,
         goto: [310],
         image: "day3_meeting",
-        script: ["今日は日差しが強いし、ぬかれんでいるから森の中に行こう"]
+        script: ["今日は日差しが強いし、ぬかるんでいるから森の中に行こう"]
     },
     {
         id: 310,
@@ -151,13 +151,13 @@ var SLIDE = [
     {
         id: 420,
         goto: [411],
-        image: "day4_open",
+        image: "day4_turn",
         script: ["忍者の真似をしてめくってみたが、くぼみ一つもなかった"]
     },
     {
         id: 430,
         goto: [411],
-        image: "day4_turn",
+        image: "day4_open",
         script: ["枕や布団が雑にしまわれていた"]
     },
     {
