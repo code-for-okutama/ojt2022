@@ -65,142 +65,142 @@ var SLIDE = [
     {
         id: 210,
         goto: [211],
-        image: "day2_`",
+        image: "making",
         script: ["雨と雨雲でよけいに怖く感じさせる"]
     },
     {
         id: 211,
         goto: [220, 230, 240],
-        image: "day2_`",
+        image: "making",
         script: ["右の墓の草", "左の墓を開ける", "真中の墓に線香"]
     },
     {
         id: 220,
         goto: [211],
-        image: "day2",
+        image: "making",
         script: ["カエルが飛び出してきた"]
     },
     {
         id: 230,
         goto: [211],
-        image: "day2",
+        image: "making",
         script: ["何もなかったが、もう二度とこんなことはしたくないと思った"]
     },
     {
         id: 240,
         goto: [300],
-        image: "day3",
+        image: "making",
         script: ["小説家が中に入っていたので外へ出した"]
     },
     // 3日目
     {
         id: 300,
         goto: [310],
-        image: "",
+        image: "making",
         script: ["今日は日差しが強いし、ぬかれんでいるから森の中に行こう"]
     },
     {
         id: 310,
         goto: [311],
-        image: "day3_",
+        image: "making",
         script: ["草木がおいしげっていて意外と蒸し暑い"]
     },
     {
         id: 311,
         goto: [320, 330, 340],
-        image: "day3_",
+        image: "making",
         script: ["紐をひっぱる", "草を刈る", "木をゆする"]
     },
     {
         id: 320,
         goto: [400],
-        image: "day3",
+        image: "making",
         script: ["紐に縛られていたシャチホコの胴体を見つけた"]
     },
     {
         id: 330,
         goto: [311],
-        image: "day3",
+        image: "making",
         script: ["大きい草を刈ったが何もなかった"]
     },
     {
         id: 340,
         goto: [311],
-        image: "day3",
+        image: "making",
         script: ["ゆすったら木の実が頭に落ちてきて痛かった"]
     },
     // 4日目
     {
         id: 400,
         goto: [410],
-        image: "",
+        image: "making",
         script: ["いなくなった女優さんの部屋を探そう"]
     },
     {
         id: 410,
         goto: [411],
-        image: "day4_",
+        image: "making",
         script: ["僕たちの部屋とあまり変わらない"]
     },
     {
         id: 411,
         goto: [420, 430, 440],
-        image: "day4_",
+        image: "making",
         script: ["掛け軸をめくる", "ふすまを開ける", "机の下を見る"]
     },
     {
         id: 420,
         goto: [411],
-        image: "day4",
+        image: "making",
         script: ["忍者の真似をしてめくってみたが、くぼみ一つもなかった"]
     },
     {
         id: 430,
         goto: [411],
-        image: "day4",
+        image: "making",
         script: ["枕や布団が雑にしまわれていた"]
     },
     {
         id: 440,
         goto: [500],
-        image: "day3",
+        image: "making",
         script: ["女優が机の下にいて倒れていたが暴れていて強制的に帰された"]
     },
     // 5日目
     {
         id: 500,
         goto: [510],
-        image: "",
+        image: "making",
         script: ["今日は最終日、まだ探していない城の跡地に行こう"]
     },
     {
         id: 510,
         goto: [511],
-        image: "day5_",
+        image: "making",
         script: ["原型が分からないくらい壊れている"]
     },
     {
         id: 511,
         goto: [520, 530, 540],
-        image: "day5_",
+        image: "making",
         script: ["がれきを探す", "城の裏に行く", "板をはがす"]
     },
     {
         id: 520,
         goto: [1000],
-        image: "day5",
+        image: "making",
         script: ["がれきの下にシャチホコの頭を発見した、これで全てがそろった"]
     },
     {
         id: 530,
         goto: [511],
-        image: "day5",
+        image: "making",
         script: ["何もなかった"]
     },
     {
         id: 540,
         goto: [511],
-        image: "day5",
+        image: "making",
         script: ["虫が沢山いて気持ちが悪い"]
     },
     // END
