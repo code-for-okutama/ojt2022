@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="369a3a89-0890-4b83-9526-2373dabd9506" name="Changes" comment="フレームを追加（具体的なファイル名はこれから）">
+    <list default="true" id="369a3a89-0890-4b83-9526-2373dabd9506" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ojt2022.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ojt2022.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/day1_choice.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/day1_choice.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/day1_meeting.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/day1_meeting.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/day1_rock.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/day1_rock.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/end.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/end.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/op_island.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/op_island.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/op_ship.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/op_ship.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/title.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/title.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +55,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654566229344</updated>
-      <workItem from="1654566230665" duration="23857000" />
+      <workItem from="1654566230665" duration="24454000" />
+      <workItem from="1654687695787" duration="862000" />
     </task>
     <task id="LOCAL-00001" summary="シーン遷移の仕組みを作成">
       <created>1654650522223</created>
@@ -70,7 +79,7 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
