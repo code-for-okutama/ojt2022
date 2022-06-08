@@ -16,10 +16,33 @@ var app = new Vue({
             return "images/" + SLIDE[this.slideIdx].image + ".jpg";
         },
         getScript() {
-            return SLIDE[this.slideIdx].script[0];
+            let scripts = SLIDE[this.slideIdx].script;
+            return scripts.length === 1 ? SLIDE[this.slideIdx].script[0] : "-";
         },
         isChoiceScene() {
             return 1 < SLIDE[this.slideIdx].script.length
         }
     },
 })
+
+window.addEventListener("orientationchange", ()=>{
+    let state = getAngle();
+    if (state.isLandscape) {
+        alert("画面を「たて」向きにしてください\n↺");
+    }
+});
+
+function getAngle(){
+    // 角度を取得
+    let angle = screen && screen.orientation && screen.orientation.angle;
+    if ( angle === undefined ) {
+        angle = window.orientation;    // iOS用
+    }
+
+    const isPortrait = (angle === 0);
+    return({
+        value: angle,           // 具体的な角度
+        isPortrait: isPortrait,      // 縦向き
+        isLandscape: ! isPortrait,    // 横向き
+    });
+}
