@@ -7,7 +7,20 @@ var app = new Vue({
     },
     methods: {
         next(idx) {
-            this.slideIdx = SLIDE[this.slideIdx].goto[idx];
+            let targetId = SLIDE[this.slideIdx].goto[idx];
+            let foundIdx = -1;
+            for (let idx = 0; idx < SLIDE.length; idx++) {
+                if (SLIDE[idx].id === targetId) {
+                    foundIdx = idx;
+                    break;
+                }
+            }
+            
+            if (foundIdx === -1) {
+                alert("error");
+            }
+            
+            this.slideIdx = foundIdx;
         },
         getChoices() {
             return SLIDE[this.slideIdx].script;

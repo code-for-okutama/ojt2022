@@ -1,44 +1,62 @@
 var SLIDE = [
     {
-        idx: 0,
-        goto: [1],
+        id: 0,
+        goto: [10],
         image: "title",
         script: ["作：村田昴大"]
     },
     {
-        idx: 1,
-        goto: [2],
+        id: 10,
+        goto: [20],
         image: "op_ship",
         script: ["三人組の一人が吐いた"]
     },
     {
-        idx: 2,
-        goto: [3],
+        id: 20,
+        goto: [100],
         image: "op_island",
         script: ["島が見えてきた"]
     },
     {
-        idx: 3,
-        goto: [4],
+        id: 100,
+        goto: [110],
         image: "day1_meeting",
         script: ["晴れているから、砂浜から探索してみよう"]
     },
     {
-        idx: 4,
-        goto: [5],
+        id: 110,
+        goto: [111],
         image: "day1_choice",
         script: ["結構岩が多いし隠し所も沢山ある"]
     },
     {
-        idx: 5,
-        goto: [6, 7, 8],
+        id: 111,
+        goto: [120, 130, 140],
         image: "day1_choice",
         script: ["岩の下を見る", "砂山を崩す", "海にもぐる"]
     },
     {
-        idx: 6,
-        goto: [5],
+        id: 120,
+        goto: [111],
         image: "day1_rock",
         script: ["カニが出て来て、近くにあった岩へとすぐに行ってしまった"]
+    },
+    {
+        id: 130,
+        goto: [200],
+        image: "day1_sand",
+        script: ["砂の中にシャチホコの尾が見つかった"]
+    },
+    {
+        id: 140,
+        goto: [111],
+        image: "day1_sea",
+        script: ["海の中は様々な生物がいたがその他何も見つからなかった"]
+    },
+    {
+        id: 200,
+        goto: [0],
+        image: "day2_investigation",
+        script: ["雨が降っているけど、小説家がいなくなった方へいってみよう"]
     },
 ];
