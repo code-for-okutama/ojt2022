@@ -19,8 +19,8 @@
 
 <main id="app" class="m-auto w-screen flex justify-center" v-cloak>
     <div>
-        <img :src="getImage()" alt="" v-on:click="next(0)" class="opacity-50">
-        <p class="text-center text-white">{{ getScript() }}</p>
+        <img :src="getImage()" alt="" v-on:click="next(0)" v-bind:class="{'opacity-50':isChoiceScene()}">
+        <p class="text-center text-white text-3xl">{{ getScript() }}</p>
     </div>
 
     <!-- Main modal -->
@@ -32,7 +32,7 @@
                     <div class="text-white text-center" v-for="(choice, idx) in getChoices()">
                         <button type="button"
                                 class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                        @click="next(idx)">
+                                @click="next(idx)">
                             {{choice}}
                         </button>
                     </div>

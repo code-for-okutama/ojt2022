@@ -2,7 +2,6 @@ var app = new Vue({
     el: '#app',
     data: {
         slideIdx: 0,
-        choiceScene: false,
     },
     created: function () {
     },
@@ -14,7 +13,7 @@ var app = new Vue({
             return SLIDE[this.slideIdx].script;
         },
         getImage() {
-            return SLIDE[this.slideIdx].image;
+            return "images/" + SLIDE[this.slideIdx].image + ".jpg";
         },
         getScript() {
             return SLIDE[this.slideIdx].script[0];
