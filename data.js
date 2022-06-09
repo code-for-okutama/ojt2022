@@ -9,13 +9,13 @@ var SLIDE = [
     {
         id: 1,
         goto: [2],
-        image: "op_ship",
+        image: "op_purpose",
         script: [""]
     },
     {
         id: 2,
         goto: [3],
-        image: "op_ship",
+        image: "op_purpose",
         script: [""]
     },
     {
@@ -40,7 +40,7 @@ var SLIDE = [
     {
         id: 100,
         goto: [101],
-        image: "day1_meeting",
+        image: "day1_day",
         script: ["-"]
     },
     {
@@ -83,7 +83,7 @@ var SLIDE = [
     {
         id: 200,
         goto: [201],
-        image: "day1_meeting",
+        image: "day2_day",
         script: ["-"]
     },
     {
@@ -138,7 +138,7 @@ var SLIDE = [
     {
         id: 300,
         goto: [301],
-        image: "day1_meeting",
+        image: "day3_day",
         script: ["-"]
     },
     { // todo
@@ -181,7 +181,7 @@ var SLIDE = [
     {
         id: 400,
         goto: [401],
-        image: "day1_meeting",
+        image: "day4_day",
         script: ["-"]
     },
     {
@@ -230,7 +230,7 @@ var SLIDE = [
     {
         id: 500,
         goto: [501],
-        image: "day1_meeting",
+        image: "day5_day",
         script: ["-"]
     },
     {
@@ -273,7 +273,7 @@ var SLIDE = [
     {
         id: 1000,
         goto: [1010],
-        image: "end",
+        image: "end_complete",
         script: ["これでみんなに自慢できる"]
     },
     {
@@ -297,13 +297,13 @@ var SLIDE = [
     {
         id: 1040,
         goto: [1070],
-        image: "end",
+        image: "",
         script: [""]
     },
     {
         id: 1050,
         goto: [1030],
-        image: "end",
+        image: "",
         script: [""]
     },
     {
@@ -315,19 +315,19 @@ var SLIDE = [
     {
         id: 1070,
         goto: [1080],
-        image: "end",
+        image: "",
         script: [""]
     },
     {
         id: 1080,
         goto: [1090],
-        image: "end",
-        script: [""]
+        image: "",
+        script: ["end_complete"]
     },
     {
         id: 1090,
         goto: [0],
-        image: "end",
-        script: [""]
+        image: "end_day",
+        script: ["-"]
     },
 ];
