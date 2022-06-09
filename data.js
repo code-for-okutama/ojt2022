@@ -10,19 +10,19 @@ var SLIDE = [
         id: 1,
         goto: [2],
         image: "op_purpose",
-        script: [""]
+        script: ["ある夏の日、中学生三人組があるイベントに出場していた"]
     },
     {
         id: 2,
         goto: [3],
         image: "op_purpose",
-        script: [""]
+        script: ["そのイベントとは金のシャチホコを探すというものだった"]
     },
     {
         id: 3,
         goto: [10],
         image: "op_players",
-        script: [""]
+        script: ["イベント参加者は全員で６人"]
     },
     {
         id: 10,
@@ -90,7 +90,7 @@ var SLIDE = [
         id: 201,
         goto: [202],
         image: "day2_gone",
-        script: [""]
+        script: ["雨の中、小説家が一人で探しに行っていた"]
     },
     {
         id: 202,
@@ -107,8 +107,8 @@ var SLIDE = [
     {
         id: 211,
         goto: [220, 230, 240],
-        image: "day2_choice", // todo
-        script: ["右の墓の草", "左の墓を開ける", "真中の墓に線香"]
+        image: "day2_choice",
+        script: ["右の草むらを探す", "左の墓を開ける", "真中の墓に花をそなえる"]
     },
     {
         id: 220,
@@ -126,13 +126,13 @@ var SLIDE = [
         id: 240,
         goto: [241],
         image: "day2_center",
-        script: ["小説家が中に入っていたので外へ出した"]
+        script: ["花をそなえたら墓が動き、中に小説家が閉じ込められていた"]
     },
     {
         id: 241,
-        goto: [300], // todo
+        goto: [300],
         image: "day2_ship",
-        script: ["小説家が中に入っていたので外へ出した"]
+        script: ["小説家は全身怪我をおっていたのでリタイヤとなった"]
     },
     // 3日目
     {
@@ -144,8 +144,8 @@ var SLIDE = [
     { // todo
         id: 301,
         goto: [310],
-        image: "day3_meeting", // todo
-        script: ["今日は日差しが強いし、ぬかるんでいるから森の中に行こう"]
+        image: "day3_meeting",
+        script: ["今日は日差しが強いので、日陰のある森の中に行こう"]
     },
     {
         id: 310,
@@ -217,14 +217,14 @@ var SLIDE = [
     {
         id: 440,
         goto: [441],
-        image: "day4_table", // todo
-        script: ["女優が机の下にいて倒れていたが暴れていて強制的に帰された"]
+        image: "day4_table",
+        script: ["女優さんが机の下にいて倒れていた"]
     },
     {
         id: 441,
         goto: [500],
         image: "day4_tired",
-        script: ["女優が机の下にいて倒れていたが暴れていて強制的に帰された"]
+        script: ["女優さんは気力がなくなっていたようでリタイヤした"]
     },
     // 5日目
     {
@@ -272,57 +272,69 @@ var SLIDE = [
     // END
     {
         id: 1000,
-        goto: [1010],
+        goto: [1009],
         image: "end_complete",
         script: ["これでみんなに自慢できる"]
     },
     {
+        id: 1009,
+        goto: [1010],
+        image: "end_happen",
+        script: ["そのとき！"]
+    },
+    {
         id: 1010,
+        goto: [1011],
+        image: "end_steal",
+        script: ["「シャチホコをかえせー！」"]
+    },
+    {
+        id: 1011,
         goto: [1020],
         image: "end_steal",
-        script: [""]
+        script: ["「小説家と女優は俺がやったんだ」"]
     },
     {
         id: 1020,
         goto: [1030],
         image: "end_run",
-        script: [""]
+        script: ["記者が逃げ出した"]
     },
     {
         id: 1030,
         goto: [1040, 1050, 1060],
         image: "end_run",
-        script: [""]
+        script: ["先回りをする", "がれきを投げる",  "全力で追いかける"]
     },
     {
         id: 1040,
         goto: [1070],
         image: "end_shortcut",
-        script: [""]
+        script: ["先回りをしたら運良く逃げる場所へといくことができた"]
     },
     {
         id: 1050,
         goto: [1030],
-        image: "",
-        script: [""]
+        image: "end_stone",
+        script: ["がれきはシャチホコにあたってしまった"]
     },
     {
         id: 1060,
         goto: [1030],
-        image: "end",
-        script: [""]
+        image: "end_chase",
+        script: ["ダメだ！地面が荒れていて転びそうだ"]
     },
     {
         id: 1070,
         goto: [1080],
-        image: "",
-        script: [""]
+        image: "end_win",
+        script: ["近くにあったロープで記者をぐるぐるまきにした"]
     },
     {
         id: 1080,
         goto: [1090],
-        image: "",
-        script: ["end_complete"]
+        image: "end_complete",
+        script: ["シャチホコを取り戻した！"]
     },
     {
         id: 1090,
