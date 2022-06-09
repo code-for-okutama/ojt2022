@@ -2,15 +2,16 @@ var app = new Vue({
     el: '#app',
     data: {
         slideIdx: 0,
+        slides: SLIDE,
     },
     created: function () {
     },
     methods: {
         next(idx) {
-            let targetId = SLIDE[this.slideIdx].goto[idx];
+            let targetId = this.slides[this.slideIdx].goto[idx];
             let foundIdx = -1;
-            for (let idx = 0; idx < SLIDE.length; idx++) {
-                if (SLIDE[idx].id === targetId) {
+            for (let idx = 0; idx < this.slides.length; idx++) {
+                if (this.slides[idx].id === targetId) {
                     foundIdx = idx;
                     break;
                 }
@@ -23,17 +24,20 @@ var app = new Vue({
             this.slideIdx = foundIdx;
         },
         getChoices() {
-            return SLIDE[this.slideIdx].script;
+            return this.slides[this.slideIdx].script;
         },
         getImage() {
-            return "images/" + SLIDE[this.slideIdx].image + ".jpg";
+            return this.formatImagePath(this.slides[this.slideIdx].image);
+        },
+        formatImagePath(name) {
+            return "images/" + name + ".jpg";
         },
         getScript() {
-            let scripts = SLIDE[this.slideIdx].script;
-            return scripts.length === 1 ? SLIDE[this.slideIdx].script[0] : "-";
+            let scripts = this.slides[this.slideIdx].script;
+            return scripts.length === 1 ? this.slides[this.slideIdx].script[0] : "-";
         },
         isChoiceScene() {
-            return 1 < SLIDE[this.slideIdx].script.length
+            return 1 < this.slides[this.slideIdx].script.length
         }
     },
 })

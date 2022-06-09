@@ -41,6 +41,11 @@
         </div>
     </div>
 
+<!--    ロード対策-->
+    <div class="hidden" v-for="slide in slides">
+        <img :src="formatImagePath(slide.image)" alt="">
+    </div>
+
 </main>
 
 <script src="https://cdn.tailwindcss.com"></script>
