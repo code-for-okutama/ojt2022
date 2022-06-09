@@ -65,19 +65,19 @@ var SLIDE = [
     {
         id: 210,
         goto: [211],
-        image: "making",
+        image: "day2_choice",
         script: ["雨と雨雲でよけいに怖く感じさせる"]
     },
     {
         id: 211,
         goto: [220, 230, 240],
-        image: "making",
+        image: "day2_choice",
         script: ["右の墓の草", "左の墓を開ける", "真中の墓に線香"]
     },
     {
         id: 220,
         goto: [211],
-        image: "making",
+        image: "day2_frog",
         script: ["カエルが飛び出してきた"]
     },
     {
