@@ -21,7 +21,7 @@ var SLIDE = [
     {
         id: 3,
         goto: [10],
-        image: "op_ship",
+        image: "op_players",
         script: [""]
     },
     {
@@ -89,7 +89,7 @@ var SLIDE = [
     {
         id: 201,
         goto: [202],
-        image: "day2_investigation",
+        image: "day2_gone",
         script: [""]
     },
     {
@@ -131,7 +131,7 @@ var SLIDE = [
     {
         id: 241,
         goto: [300], // todo
-        image: "day2_center",
+        image: "day2_ship",
         script: ["小説家が中に入っていたので外へ出した"]
     },
     // 3日目
@@ -223,7 +223,7 @@ var SLIDE = [
     {
         id: 441,
         goto: [500],
-        image: "day4_table",
+        image: "day4_tired",
         script: ["女優が机の下にいて倒れていたが暴れていて強制的に帰された"]
     },
     // 5日目
@@ -279,25 +279,25 @@ var SLIDE = [
     {
         id: 1010,
         goto: [1020],
-        image: "end",
+        image: "end_steal",
         script: [""]
     },
     {
         id: 1020,
         goto: [1030],
-        image: "end",
+        image: "end_run",
         script: [""]
     },
     {
         id: 1030,
         goto: [1040, 1050, 1060],
-        image: "end",
+        image: "end_run",
         script: [""]
     },
     {
         id: 1040,
         goto: [1070],
-        image: "",
+        image: "end_shortcut",
         script: [""]
     },
     {
