@@ -4,7 +4,7 @@ var SLIDE = [
         id: 0,
         goto: [1],
         image: "title",
-        script: ["作：村田昴大"]
+        script: ["作：村田昂大"]
     },
     {
         id: 1,
